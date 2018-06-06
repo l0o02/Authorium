@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:700');
+
+body {
+    margin: 0px;
+    width: 100%;
+}
+
+.logo {
+    margin: 10px;
+    font-family: 'PT Serif', serif;
+    color: black;
+}
+

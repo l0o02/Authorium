@@ -1,14 +1,20 @@
 {% load static %}
 <html>
-    <head>
 
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'post/css/custom.css' %}">
+</head>
 
-    </head>
-    <body>
-        sss
-        {% block content %}
-
-        {% endblock %}
-    </body>
+<body>
+    <div class="container">
+        <h3 class="logo center-align">Authorium</h3>
+        
+        {% block content %} {% endblock %}
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+</body>
 
 </html>
